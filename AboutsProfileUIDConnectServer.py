@@ -1,6 +1,6 @@
 import requests, urllib.parse, base64, json, time, re, random, csv, datetime, threading
 
-thread_count = 20
+thread_count = 30
 total_changer = 1
 program_count = 0
 
