@@ -140,9 +140,9 @@ class GroupsProfile():
 
     def start_program(self):
 
-        # thread_a = threading.Thread(target=self.change_proxy)
-        # thread_a.start()
-        # time.sleep(5)
+        thread_a = threading.Thread(target=self.change_proxy)
+        thread_a.start()
+        time.sleep(5)
 
         while True:
 
